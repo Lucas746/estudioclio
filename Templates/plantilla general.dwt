@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Estudio Clio</title>
+	<!-- TemplateEndEditable -->
+	<!-- Bootstrap -->
+    <link href="../images/Logo_Estudio Clio_Horizontal_gde.png" rel="icon" type="image/x-icon" />
+	<link href="../css/bootstrap.css" rel="stylesheet">
+	<link href="../css/plantilla.css" rel="stylesheet" type="text/css">
+	<link href="../css/moviles.css" rel="stylesheet" type="text/css" media="screen and (orientation:portrait) and (max-width:768px)">
+	<link href="tablets.css" rel="stylesheet" type="text/css" media="screen and (orientation:portrait) and (min-width:769px) and (max-width:992px)">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+ </head>
+<body style="padding-top: 30px" onLoad="MM_preloadImages('../images/redes/facebook_color.png','../images/redes/instagram_color.png','../images/redes/pinterest_color.png')">
+    
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="../js/bootstrap.js"></script>
+      <!-- Encabezado -->
+   <div class="container-fluid-encabezado">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <a class="navbar-brand" href="../index.html"><img src="../images/Estudio Clio_Logo_Arriba.png" alt="Placeholder image" width="150" class="img-responsive"></a></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="topFixedNavbar1">
+          <ul class="nav navbar-nav">
+            <li><a href="../estudio.html">ESTUDIO</a></li>
+            <li><a href="../contacto.html">CONTACTO</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ARQUITECTURA<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Cómo empezar</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DISEÑO<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../productos.html">Productos</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="../producto_silla_santiago.html">Silla Santiago</a></li>
+                <li><a href="../producto_banqueta_philip.html">Banqueta Philip</a></li>
+                <li><a href="../producto_mesa_vanderrohe.html">Mesa Van der Rohe</a></li>
+                <li><a href="../producto_lampara_kahlo.html">Lámpara Kalho</a></li>
+                <li><a href="../producto_lampara_mingpei.html">Lámpara Ming Pei</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Listas de casamiento</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../frm_login.html">Ingresar</a></li>
+            <li><a href="../frm_registro.html">Registrarse</a></li>
+            <li><a href="../carrito.html"><img src="../images/redes/carrito.png" alt=""/></a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+    <!-- Cuerpo -->
+<!-- TemplateBeginEditable name="Cuerpo" -->
+<div class="container-fluid-cuerpo"></div>
+<!-- TemplateEndEditable -->
+    
+    <div class="container-fluid-faldon">
+      <div class="row">
+        <div class="col-md-3">
+        <div class="container-fluid-logofaldon">
+        <img src="../images/Logo_Estudio Clio_Horizontal_gde.png" alt=""/>
+        </div>
+ </div>
+<div class="col-md-3">
+         <p>Ubicación<p/>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.697439074916!2d-57.96481610727663!3d-34.91404165147479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7ca8beac685%3A0x30e2b6afe41bd142!2sAv.+13+460%2C+B1902CSW+La+Plata%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1ses-419!2ses!4v1477274996533" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe> 
+        </div>
+<div class="col-md-3">
+        <p>Contactos<p/>
+        <div class="container-fluid-infocontacto">
+        <p>(221) 421 1870<p/>
+        <p>(294) 15 431 3745<p/>
+        <p>informes@estudioclio.com.ar<p/>
+        </div>
+        </div>
+<div class="col-md-3">
+        <p>Seguinos<p/>
+        <p>
+    <a href="https://www.facebook.com/estudioclio/" target="new" onMouseOver="MM_swapImage('facebook','','../images/redes/facebook_color.png',1)" onMouseOut="MM_swapImgRestore()"><img src="../images/redes/facebook_blanco.png" alt="" id="facebook"></a> 
+    <a href="https://www.instagram.com/estudioclio/" target="new" onMouseOver="MM_swapImage('instagram','','../images/redes/instagram_color.png',1)" onMouseOut="MM_swapImgRestore()"><img src="../images/redes/instagram_blanco.png" alt="" id="instagram"></a>
+    <a href="https://www.pinterest.com/estudioclio/" target="new" onMouseOver="MM_swapImage('pinterest','','../images/redes/pinterest_color.png',1)" onMouseOut="MM_swapImgRestore()"><img src="../images/redes/pinterest_blanco.png" alt="" id="pinterest"></a>
+        <p/>
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Festudioclio%2F&tabs=timeline&width=300&height=100&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+      
+</div>    
+  </div>
+</div>
+</div>
+    <!-- Basamento -->
+<div class="container-fluid-basamento">
+  <p>Estudio Clio 2016 ®</p>
+  <p>Todos los derechos reservados ©</p>
+</div>
+</body>
+</html>

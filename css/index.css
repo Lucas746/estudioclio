@@ -1,0 +1,7 @@
+@charset "utf-8";
+#carousel1 .right.carousel-control .glyphicon.glyphicon-chevron-right {
+	right: 20px;
+}
+#carousel1 .left.carousel-control .glyphicon.glyphicon-chevron-left {
+	left: 20px;
+}

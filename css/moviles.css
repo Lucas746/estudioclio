@@ -1,0 +1,35 @@
+@charset "utf-8";
+.navbar-header .navbar-brand .img-responsive {
+	width: 52%;
+	padding-top: 0px;
+	margin-top: -25px;
+}
+.carousel-inner .item.active .center-block {
+	width: auto;
+	height: auto;
+}
+.row .container-fluid .col-md-6 {
+	margin-top: 6%;
+}
+.container-fluid .col-md-6 .container-fluid-logo {
+	width: 50%;
+}
+.container-fluid-slider {
+	width: 100%;
+
+}
+.container-fluid .col-md-6 .container-fluid-galeria {
+
+
+
+}
+.row .col-sm-6 .container-fluid-beneficios_registro {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+}
+.container-fluid-lista_beneficios .container-fluid-inicio_con_facebook a {
+	margin-left: 1%;
+	margin-right: 1%;
+	width: 98%;
+}
